@@ -20,6 +20,6 @@ workflows:
 
 　    steps:
   　    # Commands are run in a Windows virtual machine environment
-    　  - checkout
+    　  #- checkout
       　- run: Write-Host 'Hello, Windows'
       
